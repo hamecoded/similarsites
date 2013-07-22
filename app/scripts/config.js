@@ -1,5 +1,4 @@
 'use strict';
-require.restMode = "mock";
 require.config({
     deps: ['main'],
 
@@ -7,7 +6,7 @@ require.config({
         underscore: {
             exports: '_'
         },
-        backbonesrc: {
+        backbone: {
             deps: [
                 'underscore',
                 'jquery'
@@ -16,23 +15,10 @@ require.config({
         },
         bootstrap: {
             deps: ['jquery'],
-            exports: 'jquery'
+            exports: 'Bootstrap'
         },
         backbone_query_params: {
-            deps: [
-                'backbonesrc'
-            ]
-        },
-        backbone_route_filter: {
-            deps: [
-                'backbonesrc'
-            ]
-        },
-        backbone_safe: {
-            deps: [ 'backbonesrc' ]
-        },
-        backbone_mock: {
-            deps: [ 'backbonesrc' ]
+            deps: ['backbone']
         }
     },
     
@@ -41,12 +27,8 @@ require.config({
         bootstrap: 'vendor/bootstrap',
         
         jquery: '../components/jquery/jquery',
-        backbonesrc: '../components/backbone-amd/backbone',
-        backbone_mock: 'vendor/backbone.mock',
-        backbone: 'vendor/backbonepkg',
+        backbone: '../components/backbone-amd/backbone',
         backbone_query_params : '../components/backbone-query-parameters/backbone.queryparams',
-        backbone_route_filter : '../components/backbone.routefilter/dist/backbone.routefilter',
-        text: '../components/requirejs-text/text',
         underscore: '../components/underscore-amd/underscore'
     }
 });
