@@ -27,8 +27,8 @@ require.config({
         bootstrap: 'vendor/bootstrap',
         
         jquery: '../components/jquery/jquery',
-        backbone: '../components/backbone-amd/backbone',
+        backbone: '../components/backbone-amd/backbone-min',
         backbone_query_params : '../components/backbone-query-parameters/backbone.queryparams',
-        underscore: '../components/underscore-amd/underscore'
+        underscore: '../components/underscore-amd/underscore-min'
     }
 });

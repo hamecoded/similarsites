@@ -170,6 +170,7 @@ module.exports = function (grunt) {
                     // `name` and `out` is set by grunt-usemin
                     baseUrl: 'app/scripts',
                     optimize: 'none',
+                    //mainConfigFile: 'app/scripts/config.js',
                     paths: {
                         'templates': '../../.tmp/scripts/templates'
                     },
