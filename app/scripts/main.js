@@ -8,6 +8,7 @@ require([
     'ApplicationController'
 ], function (Backbone, 
     ApplicationModel, ApplicationView, ApplicationController ) {
+    
     var model= new ApplicationModel;
     new ApplicationView({model: model});
     new ApplicationController({model: model});

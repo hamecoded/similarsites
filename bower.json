@@ -6,14 +6,11 @@
     "jquery": "~1.9.0",
     "requirejs": "~2.1.5",
     "requirejs-text": "~2.0.5",
-    "backbone-amd": "~1.0.0",
-    "underscore-amd": "~1.4.4",
+    "backbone": "latest",
+    "underscore": "latest",
     "handlebars": "~1.0.0",
     "modernizr": "~2.6.2",
-    "moment" : "~2.0.0",
     "animate.css": "latest",
-    "bootstrap-daterangepicker" : "latest",
-    "backbone.routefilter" : "latest",
     "backbone-query-parameters" : "latest"
   },
   "devDependencies": {
