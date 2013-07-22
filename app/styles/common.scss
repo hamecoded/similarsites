@@ -1,0 +1,51 @@
+.ease {
+-webkit-transition: all .5s cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all .5s cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -ms-transition: all .5s cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all .5s cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all .5s cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* This is the entire scrollbar unit. */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-corner {
+    background: #F3F3F3;
+}
+::-webkit-scrollbar-button {
+    background: transparent;
+    display: none;
+    height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F3F3;
+  box-shadow: inset 1px 1px 7px gray;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    height: 8px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:#777;
+}     
+/* end of scrollbar */
+.module {
+  height: 100%;
+}
