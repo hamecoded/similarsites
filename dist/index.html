@@ -59,7 +59,7 @@
         </div>
         <h1>SimilarSites</h1>
         <div id="similarsites">
-        <% _.each(SimilarSites, function(i) { %>  <span class="badge"><%= i.Url %></span> <% }); %>
+        <% _.each(SimilarSites, function(i) { %>  <span class="badge"><img src="<%= i.FavIcon %>"></img><%= i.Url %></span> <% }); %>
         </div>
         <br>
         <iframe src="http://<%=site%>"></iframe>
