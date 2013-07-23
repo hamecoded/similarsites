@@ -23,7 +23,6 @@ require.config({
     },
     
     paths: {
-        timber: 'vendor/timber/timber',
         bootstrap: 'vendor/bootstrap',
         
         jquery: '../components/jquery/jquery',
